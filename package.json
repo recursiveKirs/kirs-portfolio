@@ -1,5 +1,6 @@
 {
   "name": "kirs-portfolio",
+  "homepage": "http://recursivekirs.github.io/kirs-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
