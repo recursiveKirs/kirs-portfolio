@@ -1,9 +1,15 @@
 .NavBar {
   width: 100vw;
-  background-color: #fdf0d5;
+  background-color: #eceae4;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.app-logo {
+  height: 40px;
+  pointer-events: none;
+  margin: 4px;
 }
 
 .NavBarContent {
