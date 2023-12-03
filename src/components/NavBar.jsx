@@ -14,7 +14,7 @@ export const NavBar = () => {
           Gallery
         </Link>
         <Link to="/experience" className="navbar-link">
-          Experience
+          About Me
         </Link>
       </div>
     </div>

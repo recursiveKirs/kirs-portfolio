@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import { ErrorPage, HomePage, ExperiencePage, GalleryPage } from "./pages";
+import { NotFoundPage, HomePage, ExperiencePage, GalleryPage } from "./pages";
 
-export const AppContent = () => {
+export const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/experience" element={<ExperiencePage />} />
       <Route path="/gallery" element={<GalleryPage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };

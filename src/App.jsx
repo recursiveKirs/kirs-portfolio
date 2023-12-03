@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
-import { AppContent } from "./AppContent";
+import { AppRoutes } from "./AppRoutes";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <AppContent />
+        <AppRoutes />
       </div>
     </BrowserRouter>
   );
